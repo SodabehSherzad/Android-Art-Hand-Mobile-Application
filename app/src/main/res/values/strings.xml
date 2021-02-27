@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">صنایع دستی</string>
+    <string name="title_home">صنایع دستی</string>
+    <string name="title_profile">پروفایل ها</string>
+    <string name="title_profile_detail">جزئیات پروفایل</string>
+    <string name="title_cart">سبد خرید</string>
+    <string name="title_favorite">مورد علاقه</string>
+    <string name="title_about">درباره ما</string>
+    <string name="title_category">کتگوری ها</string>
+    <string name="title_item">کتگوری های جدید</string>
+    <string name="title_subcategory">کتگوری های فرعی</string>
+    <string name="title_product">محصولات</string>
+    <string name="title_add_product">اضافه کردن محصول</string>
+    <string name="title_product_detail">جزئیات محصول</string>
+    <string name="title_user">حساب کاربر</string>
+    <string name="title_order">سفارش شده ها</string>
+    <string name="title_account">حساب کاربر</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_buy">فروخته شده ها</string>
+    <string name="title_ordered">فروخته شده ها</string>
+    <string name="title_user_item">محصولات من</string>
+</resources>

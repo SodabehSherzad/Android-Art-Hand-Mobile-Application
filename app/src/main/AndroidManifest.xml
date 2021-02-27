@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.arthand">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+        <activity android:name=".ui.user.EditUserItemActivity"></activity>
+        <activity android:name=".ui.user.UserItemActivity" />
+        <activity
+            android:name=".OrderedActivity"
+            android:label="@string/title_ordered"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ui.user.StatusOrderActivity" />
+        <activity
+            android:name=".ui.user.UserDetailActivity"
+            android:label="@string/title_account" />
+        <activity
+            android:name=".ui.user.OrderActivity"
+            android:label="@string/title_order" />
+        <activity
+            android:name=".ProductActivity"
+            android:label="@string/title_product" />
+        <activity
+            android:name=".ui.profile.ProfileDetailActivity"
+            android:label="@string/title_profile_detail" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_about"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddProductActivity"
+            android:label="@string/title_add_product" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:label="@string/title_product_detail" />
+        <activity
+            android:name=".SubCategoryActivity"
+            android:label="@string/title_subcategory"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoAction">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
